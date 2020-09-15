@@ -1,0 +1,42 @@
+
+php artisan tinker
+
+$b1=new App\book;
+$b1->name="book1";
+$b1->ISBN="1234567890";
+$b1->price=14000;
+$b1->pages=134;
+$b1->published_at= 2019_11_03;
+$b1->save();
+
+$b2=new App\book;
+$b2->name="book2";
+$b2->ISBN="2345678901";
+$b2->price=23000;
+$b2->pages=124;
+$b2->published_at= 2017_02_01;
+$b2->save();
+
+$b3=new App\book;
+$b3->name="book3";
+$b3->ISBN="3456789012";
+$b3->price=76000;
+$b3->pages=560;
+$b3->published_at= 2020_02_28;
+$b3->save();
+
+$b4=new App\book;
+$b4->name="book4";
+$b4->ISBN="4567890123";
+$b4->price=1200;
+$b4->pages=98;
+$b4->published_at= 2000_12_23;
+$b4->save();
+
+$b5=new App\book;
+$b5->name="book3";
+$b5->ISBN="5678901234";
+$b5->price=29000;
+$b5->pages=47;
+$b5->published_at= 2007_10_03;
+$b5->save();
