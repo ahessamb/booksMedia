@@ -3,7 +3,7 @@
     Form
 @endsection
 @section('content')
-    <h1>{{$varib}}</h1>
+
     <div class="card">
         <div class="card-body">
             <form method="POST" action="{{route('posted')}}" >
